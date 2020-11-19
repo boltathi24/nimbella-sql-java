@@ -1,9 +1,15 @@
 # Compiled class file
 *.class
-
+.env
+target/
+.settings/
+.classpath
+.project
 # Log file
 *.log
-
+.nimbella
+.idea
+.env
 # BlueJ files
 *.ctxt
 

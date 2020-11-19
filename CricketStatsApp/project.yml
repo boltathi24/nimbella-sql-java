@@ -1,0 +1,12 @@
+packages:
+  - name: cricket
+    actions:
+      - name: getplayerstats 
+        runtime: java:default
+        main: playerdata.GetPlayerData#main
+        environment:
+          DB_UserName: ${DB_UserName}
+          DB_Password: ${DB_Password}
+          DB_Port: "${DB_Port}"
+          DB_Host: ${DB_Host}
+          DB_Name: ${DB_Name}
