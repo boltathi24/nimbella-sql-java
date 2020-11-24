@@ -1,6 +1,5 @@
 # Compiled class file
 *.class
-.env
 target/
 .settings/
 .classpath
